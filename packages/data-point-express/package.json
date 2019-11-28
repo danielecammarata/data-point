@@ -1,0 +1,47 @@
+{
+  "name": "data-point-express",
+  "version": "5.1.0",
+  "description": "Create DataPoint Express middleware",
+  "main": "lib/index.js",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ViacomInc/data-point/tree/master/packages/data-point-express"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "author": {
+    "name": "Acatl Pacheco",
+    "email": "acatl.pacheco@viacom.com"
+  },
+  "devDependencies": {
+    "body-parser": "1.18.2",
+    "data-point": "^3.5.0",
+    "express": "^4.16.2",
+    "ioredis": "4.12.2",
+    "ioredis-mock": "^4.12.1"
+  },
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "data-point-service": "^4.3.0",
+    "lodash": "^4.17.11"
+  },
+  "peerDependencies": {
+    "data-point": "^3.4.0",
+    "express": "4.x",
+    "supertest": "^4.0.2"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "cache",
+    "redis",
+    "ioredis",
+    "route",
+    "transform",
+    "reduce",
+    "request",
+    "model"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "data-point-cache",
+  "version": "4.1.0",
+  "description": "DataPoint Cache Layer",
+  "main": "lib/index.js",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ViacomInc/data-point/tree/master/packages/data-point-cache"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "author": {
+    "name": "Acatl Pacheco",
+    "email": "acatl.pacheco@viacom.com"
+  },
+  "devDependencies": {
+    "ioredis-mock": "^4.12.1"
+  },
+  "dependencies": {
+    "ioredis": "4.12.2",
+    "lodash": "^4.17.11",
+    "ms": "2.x"
+  },
+  "keywords": [
+    "cache",
+    "redis",
+    "ioredis"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "data-point-service",
+  "version": "4.3.0",
+  "description": "DataPoint as a Service",
+  "main": "lib/index.js",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ViacomInc/data-point/tree/master/packages/data-point-service"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "author": {
+    "name": "Acatl Pacheco",
+    "email": "acatl.pacheco@viacom.com"
+  },
+  "devDependencies": {
+    "data-point": "^3.5.0"
+  },
+  "dependencies": {
+    "data-point-cache": "^4.1.0",
+    "debug": "3.x",
+    "lodash": "^4.17.11",
+    "ms": "2.x"
+  },
+  "peerDependencies": {
+    "data-point": "^3.4.0",
+    "express": "4.x"
+  },
+  "keywords": [
+    "service",
+    "cache",
+    "redis",
+    "transform",
+    "reduce",
+    "request",
+    "model"
+  ]
+}

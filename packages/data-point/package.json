@@ -1,0 +1,63 @@
+{
+  "name": "data-point",
+  "version": "3.5.0",
+  "description": "Data Processing and Transformation Utility",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/ViacomInc/data-point",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ViacomInc/data-point.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ViacomInc/data-point/issues"
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=2"
+  },
+  "author": {
+    "name": "Acatl Pacheco",
+    "email": "acatl.pacheco@viacom.com"
+  },
+  "contributors": [
+    {
+      "name": "Fred Ghosn",
+      "email": "fred.ghosn@viacomcontractor.com"
+    },
+    {
+      "name": "Yinig Chen",
+      "email": "Yining.Chen@viacom.com"
+    },
+    {
+      "name": "Matthew Armstrong",
+      "email": "MatthewR.Armstrong@viacom.com"
+    }
+  ],
+  "keywords": [
+    "reduce",
+    "transform",
+    "process",
+    "functional",
+    "compose",
+    "aggregate"
+  ],
+  "files": [
+    "LICENSE",
+    "index.js",
+    "lib/"
+  ],
+  "dependencies": {
+    "ajv": "5.2.3",
+    "debug": "3.x",
+    "deep-freeze": "0.0.1",
+    "json-stringify-safe": "^5.0.1",
+    "lodash": "^4.17.11",
+    "request": "2.82.0",
+    "request-promise": "4.2.2"
+  },
+  "devDependencies": {
+    "benchmark": "2.1.4",
+    "nock": "^8.0.0"
+  }
+}
